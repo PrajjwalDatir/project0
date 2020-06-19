@@ -1,2 +1,76 @@
+#navbarSupportedContent{
+	align-items: center;
+}
+
+
+html,body{
+	margin: 1%;
+	text-align: center;
+	border-style: none;
+	border-width: thick;
+	border-color: var(--primary-color1);
+	box-sizing: content-box;
+	width: auto;
+	height: auto;
+}
+
+/*SCSS varibles*/
+
+:root{
+	--primary-color1: #47ff93;
+	--primary-color2: #05ff3b;
+	--title-color: #000000;
+	--text-color: #47ff93;
+	--border-color: #7c7ef6;
+	--gradient-color: liner-gradient(90deg, #4705ff 0% #13a0ff 100%) ;
+	--shadow-color: 0px 10px 30px rgba(118,85,225,0.3);
+	--box-color: 0px 10px 30px rgba(57,56,61,0.205);
+	--extra1-color: #84a1ff;
+	--extra2-color: #7a6ee0;
+	--fontyy:  'Balsamiq', Georgia, Times, 'Times New Roman', serif;
+}
+
+
 /*Importing fonts*/
-@import url(./fonts.css)
+
+
+
+@import url(./fonts.css);
+
+
+
+/*Start Nav*/
+
+.header_area .main-menu .navbar-brand{
+	padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+	padding: 1.0rem 0rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	font-family:var(--fontyy);
+	text-transform: capitalize;
+	font-weight: 700;
+	padding: 1.2rem;
+	color: black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+	background: var(--gradient-color);
+	background-clip: var(--primary-color1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: text;
+	background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+	background: var(--gradient-color);
+	background-clip: var(--primary-color1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: var(--gradient-color);
+	background-clip: text;
+}
+
+/*End Nav*/
