@@ -1,0 +1,44 @@
+/*Use SCSS here*/
+li{
+	border: 20px;
+	border-width: 10px;
+	border-color: lightgreen;
+	color: royalblue;
+	cursor: auto;
+	border-color: red;
+}
+#navigation{
+	color: lightgreen;
+}
+body{
+	background-color: black;
+}
+h1{
+	color: wheat;
+	text-shadow: blanchedalmond;
+	background-color: #006666;
+}
+.btn-group button {
+	background-color: darkorchid;
+	border: 1px solid purple; 
+	color: white; 
+	padding: 10px 24px;
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+	background-color: #3e8e41;
+  }
